@@ -1,0 +1,11 @@
+name: An idea
+description: Something Tab Compass could do, or do better.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like it to do?
+      description: And what are you doing now instead?
+    validations:
+      required: true

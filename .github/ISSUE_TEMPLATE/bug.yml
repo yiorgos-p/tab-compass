@@ -1,0 +1,36 @@
+name: Something isn't working
+description: A bug, or something that behaves differently from what you expected.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues are public. Please don't paste API keys, or the addresses or titles of tabs you'd rather keep private.
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options: [Firefox, Chrome, Microsoft Edge, Other]
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Browser version and Tab Compass version
+      description: The browser's version is in its About page; Tab Compass's in your browser's add-on settings.
+      placeholder: Firefox 160, Tab Compass 1.1.0
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to make it happen again
+      placeholder: |
+        1. Open …
+        2. Click …
