@@ -35,4 +35,6 @@ for the optional AI features, sends.
 
 Not published here yet.
 
-Copyright © 2026 yiorgos-p. All rights reserved.
+Copyright © 2026 yiorgos-p. Since 1.1.1, Tab Compass is under the
+[PolyForm Shield License 1.0.0](https://polyformproject.org/licenses/shield/1.0.0): you may use, change and share it
+for any purpose except to make something that competes with it, free or paid. The license comes inside the add-on.
